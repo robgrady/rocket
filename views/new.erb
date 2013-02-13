@@ -1,0 +1,26 @@
+<form action="/create" method="post" id="rocket" class="well">
+  <h3>Create A New Idea</h3>
+  <p>
+    <label>Title</label>
+    <input type="text" name="rocket[title]" id="title" class="span12" /> 
+    <p class="help-block">enter a descriptive title for your genius concept</p>
+  </p>
+
+  <p>
+    <label>Originator</label>
+    <input type="text" name="rocket[originator]" id="originator" class="span6" />
+    <p class="help-block">enter the originator of this amazing idea</p>
+  </p>
+  <p>
+    <label>Description</label>
+    <input type="text" name="rocket[description]" id="description" />
+  </p>
+  <p>
+    <label>Reference URL</label>
+    <input type="text" name="rocket[url]" id="url" />
+    <p class="help-block">enter a link that helped spawn the genius</p>
+  </p>
+  <p>
+    <button class="btn btn-primary btn-large" type="submit">Submit</button>
+  </p>
+</form>

@@ -1,0 +1,20 @@
+<h3>Rockets</h3>
+<table class="table table-striped">
+  <thread>
+    <tr>
+      <th>ID</th>
+      <th>Idea</th>
+      <th>Status</th>
+      <th>Tags</th>
+    </tr>
+<% @rockets.each_with_index do |rocket,i| %>
+  <tbody>
+  <tr<%= ' class="alt"' if i%2==0 %>>
+    <td><a href="/show/<%= rocket.id %>"><%= rocket.id %></a></td>
+    <td><a href="/show/<%= rocket.id %>"><%= rocket.title %></a></td>
+    <td><span class="label label-success">Active Development</span></td>
+    <td><span class="badge badge-important">Social</span> <span class="badge badge-info">Business</span></td>
+  </tr>
+</tbody>
+<% end %>
+</table>
