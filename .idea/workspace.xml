@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="259a901e-0894-4b24-9f11-3b440ede0b76" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rocket.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="259a901e-0894-4b24-9f11-3b440ede0b76" time="1360726464540" ignored="false" />
     <file path="/footer.erb" changelist="259a901e-0894-4b24-9f11-3b440ede0b76" time="1360724519354" ignored="false" />
+    <file path="/Gemfile" changelist="259a901e-0894-4b24-9f11-3b440ede0b76" time="1360728779115" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="3" selection-start="228" selection-end="228" vertical-scroll-proportion="0.42886597">
+            <state line="11" column="3" selection-start="181" selection-end="181" vertical-scroll-proportion="0.3628866">
               <folding />
             </state>
           </provider>
@@ -63,6 +65,7 @@
       <list>
         <option value="$PROJECT_DIR$/views/footer.erb" />
         <option value="$PROJECT_DIR$/public/bootstrap.css" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -394,7 +397,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="3" selection-start="228" selection-end="228" vertical-scroll-proportion="0.42886597">
+        <state line="11" column="3" selection-start="181" selection-end="181" vertical-scroll-proportion="0.3628866">
           <folding />
         </state>
       </provider>
