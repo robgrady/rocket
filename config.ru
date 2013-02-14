@@ -1,2 +1,2 @@
-require './rocketshock.rb'
+require './app.rb'
 run Sinatra::Application

@@ -31,7 +31,7 @@ end
 
 # View the Home Page
 get '/' do 
-  @title= "Welcome to Rocketshock" 
+  @title= "Welcome to Plannit"
   erb :home
 end
 
